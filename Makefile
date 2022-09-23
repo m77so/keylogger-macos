@@ -31,3 +31,6 @@ unload:
 
 clean:
 	rm $(EXECUTABLE)
+
+speedmeter:
+	./keylogger /dev/stdout | python3 speedmeter.py
