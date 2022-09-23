@@ -40,6 +40,13 @@ To quit the application now (note: you will need to run the `sudo make startup` 
 $ sudo make unload
 ```
 
+**SPEEDMETER**
+```bash
+$ make speedmeter
+```
+
+it is fun
+
 ## Uninstallation
 
 You can completely remove the application from your system (including the startup daemon) by running the following command (logs will not be deleted):
